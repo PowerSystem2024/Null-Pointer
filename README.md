@@ -9,11 +9,11 @@ Este repositorio pertenece al equipo **Null Pointer** de la UTN, donde estudiamo
 El objetivo de este repositorio es facilitar la colaboración y el intercambio de conocimiento entre los miembros del equipo **Null Pointer**. Todos los integrantes pueden contribuir con su trabajo, aportar ideas, y aprender de las contribuciones de los demás.
 
 ## Integrantes:
-Cristian Gimenez :man_technologist:
-Bestabé Gutierrez
-Santiago Martos
-Mauro Ulloa
-Sofia Torres
-Victoria Galdona
-Axel Arrieta
-Valentin Rinckeisen
+1.Cristian Gimenez :man_technologist:
+2.Bestabé Gutierrez
+3.Santiago Martos
+4.Mauro Ulloa
+5.Sofia Torres
+6.Victoria Galdona
+7.Axel Arrieta
+8.Valentin Rinckeisen
