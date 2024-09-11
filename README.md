@@ -9,7 +9,7 @@ Este repositorio pertenece al equipo **Null Pointer** de la UTN, donde estudiamo
 El objetivo de este repositorio es facilitar la colaboración y el intercambio de conocimiento entre los miembros del equipo **Null Pointer**. Todos los integrantes pueden contribuir con su trabajo, aportar ideas, y aprender de las contribuciones de los demás.
 
 ## Integrantes:
-- Cristian Gimenez :man_technologist:
+- Cristian Victor Gimenez :man_technologist:
 - Bestabé Gutierrez
 - Santiago Martos
 - Mauro Ulloa
