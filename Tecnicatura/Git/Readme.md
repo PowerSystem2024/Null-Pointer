@@ -1,3 +1,5 @@
+## CLASE 01 MIÉRCOLES 14 DE AGOSTO DEL 2024 - Portafolio 1
+
 #### USO DE GITHUB Parte 1
 
 GitHub es una plataforma que nos permite guardar repositorios de Git que podemos usar como servidores remotos y ejecutar algunos comandos de forma visual e interactiva (sin necesidad de la consola de comandos).
@@ -97,7 +99,7 @@ Revisar y ejecutar cada comando, hacerlo como práctica. NO olvidar hacer lo req
 
 **Profesor Ariel Betancud**
 
-###### CLASE 02 MIÉRCOLES 21 DE AGOSTO DEL 2024 - Portafolio 2
+## CLASE 02 MIÉRCOLES 21 DE AGOSTO DEL 2024 - Portafolio 2
 
 Vamos a cargar la llave SSH pública en GitHub.
 
@@ -150,7 +152,7 @@ Revisar y ejecutar cada comando, hacerlo como práctica. NO olvidar hacer lo req
 *Profesor Ariel Betancud*
 
 
-# CLASE 03 MIÉRCOLES 28 DE AGOSTO DEL 2024 - Portafolio 3
+## CLASE 03 MIÉRCOLES 28 DE AGOSTO DEL 2024 - Portafolio 3
 
 ## Cambios en GitHub: de master a main
 
@@ -193,7 +195,7 @@ Revisar y ejecutar cada comando, hacerlo como práctica. NO olvidar hacer lo req
 
 Profesor Ariel Betancud
 
-#### CLASE 04 MIÉRCOLES 4 DE SEPTIEMBRE DEL 2024 - Portafolio 4
+## CLASE 04 MIÉRCOLES 4 DE SEPTIEMBRE DEL 2024 - Portafolio 4
 
 ### Tu primer push
 
@@ -245,7 +247,7 @@ Revisar y ejecutar cada comando, hacerlo como práctica. NO olvidar hacer lo req
 
 *Profesor Ariel Betancud*
 
-### CLASE 05 MIÉRCOLES 11 DE SEPTIEMBRE DEL 2024 - Portafolio 5
+## CLASE 05 MIÉRCOLES 11 DE SEPTIEMBRE DEL 2024 - Portafolio 5
 
 ## Git tag y versiones en GitHub
 
