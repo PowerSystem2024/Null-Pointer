@@ -467,3 +467,35 @@ Vamos a ver unos videos de como avanzar en lo que es un portafolio por el Tutor:
 
 Revisar y ejecutar cada comando, hacerlo como practica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación.
 *Profesor Ariel Betancud*
+
+# CLASE 10 MIÉRCOLES 16 DE OCTUBRE DEL 2024 - Portafolio 10
+
+## Flujo de trabajo profesional
+
+### Haciendo merge de ramas de desarrollo a main
+
+Para poder desarrollar software de manera óptima y ordenada, necesitamos tener un flujo de trabajo profesional, que nos permita trabajar en conjunto sin interrumpir el trabajo de otros desarrolladores.
+
+*Una buena práctica de flujo de trabajo sería la siguiente:*
+
+Crear ramas
+Asignar una rama a cada programador
+El programador baja el repositorio con git pull origin master
+El programador cambia de rama
+El programador trabaja en esa rama y hace commits
+El programador sube su trabajo con git push origin #nombre_rama
+El encargado de organizar el proyecto baja, revisa y unifica todos los cambios
+
+## PORTAFOLIO
+
+Vamos a ver unos videos de como avanzar en lo que es un portafolio por el Tutor:
+Dante Nicolás Martinez
+
+**Segundo Semestre Parte 8:**
+
+- Video Capitulo 9
+- PDF
+
+Revisar y ejecutar cada comando, hacerlo como practica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación.
+
+*Profesor Ariel Betancud*
