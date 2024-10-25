@@ -17,3 +17,5 @@ El objetivo de este repositorio es facilitar la colaboración y el intercambio d
 - Victoria Galdona
 - Axel Arrieta
 - Valentin Rinckeisen
+- Quiles Horacio
+- Juan Vera
