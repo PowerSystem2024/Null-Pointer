@@ -1,0 +1,40 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>430</x><y>110</y><w>210</w><h>220</h></coordinates><panel_attributes>&lt;&lt;Persona&gt;&gt;
+--
+-nombre: String
+-genero: char
+-edad: int
+-direccion: String
+--
++getNombre():Str
++setNombre(String):void
++getGenero():char
++setGenero(char):void
++getEdad():int
++setEdad(int):void
++getDireccion():String
++setDireccion(String):void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>130</x><y>450</y><w>210</w><h>130</h></coordinates><panel_attributes>&lt;&lt;Empleado&gt;&gt;
+--
+-idEmpleado:int
+-sueldo:double
+--
++getIdEmpleado():int
++getSueldo():double
++setSueldo(double):void
++setIdEmpleado(int):void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>810</x><y>460</y><w>210</w><h>180</h></coordinates><panel_attributes>&lt;&lt;Cliente&gt;&gt;
+--
+-idCliente: int
+-fechaRegistro: Date
+-vip:boolean
+--
++getIdCliente():int
++getFechaRegistro():Date
++getVip():boolean
++setIdCliente(int):void
++setFechaRegistro(Date):void
++setVip(boolean):void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>360</y><w>710</w><h>40</h></coordinates><panel_attributes>&lt;&lt;extends&gt;&gt;                                                          &lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;20;690;20</additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>370</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>870</x><y>370</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>520</x><y>320</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element></diagram>
