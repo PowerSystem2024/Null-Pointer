@@ -23,7 +23,7 @@ const navegacion = ref([
 <style scoped>
 .navbar {
  background-color: var(--vt-c-indigo);
- color: #fff;
+ color: #ffffff;
  padding: 0.5rem 1rem;
  align-items: center;
 }
@@ -42,7 +42,7 @@ const navegacion = ref([
 
 a {
  border: 1px solid;
- border-color: hsla(160, 100% , 37%, 0.2);
+ border-color: hsla(0, 0%, 0%, 0.2);
  border-radius:  5px;
  /*Elimina lo subrayado de los enlaces y elementos con clase "green*/
  text-decoration: none;
