@@ -5,7 +5,7 @@
 const title = 'GRUPO NULL POINTER';
 const descripcion = 'Técnicos Universitarios en Programación - UTN';
 const residencia = 'San Rafael, Mendoza, Argentina';
-const presentacion = 'Hola, Bienvenido a nuestro portafolio de proyectos. Somos estudiantes de desarrollado web y aplicaciones. Nuestra pasioón es aprender sobre los diversos lenguajes de programación';
+const presentacion = 'Hola, Bienvenido a nuestro portafolio de proyectos. Somos estudiantes de desarrollado web y aplicaciones. Nuestra pasioqón es aprender sobre los diversos lenguajes de programación';
 const redesSociales = [
   { id: 1, name: 'linkedin', src:'/src/assets/linkedin_icon.svg' , url: ''},
   { id: 2, name: 'Instagram', src:'/src/assets/instagram_icon.svg' , url: '' },
