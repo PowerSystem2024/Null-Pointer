@@ -4,6 +4,8 @@ import DatosPersonales from './components/DatosPersonales.vue';
 import Educacion from './components/EducacionComponente.vue';
 import ProyectosComponente from './components/ProyectosComponente.vue';
 import ExperienciaComponente from './components/ExperienciaComponente.vue';
+import HabilidadesComponente from './components/HabilidadesComponente.vue';
+
 </script>
 
 <template>
@@ -26,7 +28,12 @@ import ExperienciaComponente from './components/ExperienciaComponente.vue';
     <section id="proyectos"><h2>Proyectos</h2>
       <ProyectosComponente />
     </section>
-    <section id="habilidades"><h2>Habilidades</h2></section>
+    <section id="habilidades">
+            <!--Componente Habilidades-->
+            <h2>Habilidades</h2>
+            <HabilidadesComponente />
+        </section>
+    
     <section id="intereses"><h2>Intereses</h2></section>
   </main>
 </template>
