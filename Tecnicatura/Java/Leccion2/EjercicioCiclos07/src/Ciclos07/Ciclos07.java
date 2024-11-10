@@ -1,9 +1,9 @@
 /*
-Ejercicio 7: Pedir numeros hasta que se introduzca un numero negativo
-y calcular el promeido
+Ejercicio 7: Pedir numeros hasta que se introduzca uno negativo y calcular 
+el promedio
 */
 package Ciclos07;
-        
+
 import java.util.Scanner;
 
 public class Ciclos07 {
@@ -13,19 +13,22 @@ public class Ciclos07 {
         float promedio = 0;
         System.out.println("Digite un numero: ");
         numero = Integer.parseInt(entrada.nextLine());
-        while(numero >= 0){//Mientras el numero no dea negativo
+        while (numero >= 0){ //Mientras el numero no sea negativo
             suma += numero;
             conteo++;
             System.out.println("Digite otro numero: ");
-            numero = Integer.parseInt(entrada.nextLine());            
+            numero = Integer.parseInt(entrada.nextLine());
         }
-        if(conteo == 0){
-            System.out.println("\nError, la division entre cero no existe");
+        if(conteo==0){
+            System.out.println("\n Error, la division entre cero no existe");
         }
         else{
             promedio = (float)suma/conteo;
-            System.out.println("\nEl promedio es: "+promedio);
-        }
+            System.out.println("\nEl promedio es: " +promedio);
+        }       
     }
-    
 }
+
+            
+
+

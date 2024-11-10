@@ -2,33 +2,31 @@
 package CicloWhile;
 
 public class EjercicioWhile01 {
-    public static void main(String[] args) {
-        var conteo = 0; //inferencia de tipos
-        while (conteo < 3){
+    public static void main(String[]args){
+        var conteo = 0;//INFERENCIA DE TIPOS
+        while(conteo < 3){
             System.out.println("conteo = " + conteo);
-            conteo++;
+            conteo++; // Vamos aumentando en uno la variable
         }
-        
         var contador = 0;
         do{
             System.out.println("contador = " + contador);
             contador++;
         }while(contador <= 7);
-        // break y continue junto con etiquetas labels
-        
-        for( var contando = 0; contando < 7; contando++){
-            if(contando % 2 == 0){
-                System.out.println("contando = " + contando);
-                break;
-            }
-        }
+        //USO DE LAS PALABRAS BREAK Y CONTINUE JUNTO A LAS ETIQUETAS (LABELS)
         inicio:
-        for( var contando = 0; contando < 7; contando++){
-            if(contando % 2 != 0){
-                continue inicio;//Vamos a la siguiente iteracion
-            }
-            System.out.println("contando = " + contando);
+        for(var contado = 0 ;contado < 7 ; contado++){
+            if(contado % 2 == 0){
+                System.out.println("contado = " + contado);
+                break inicio;
+            }    
         }
-         
+        
+        for(var contado = 0 ;contado < 7 ; contado++){
+            if(contado % 2 != 0){
+                continue; //VAMOS A LA SIGUIENTE ITERACION               
+            }    
+            System.out.println("contado = " + contado);
+        }
     }
 }
