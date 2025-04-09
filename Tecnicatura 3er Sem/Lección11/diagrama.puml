@@ -1,0 +1,53 @@
+@startuml
+class Computadora {
+    +idComputadora: int
+    +nombre: String
+    +monitor: Monitor
+    +teclado: Teclado
+    +raton: Raton
+    +contadorComputadoras: int
+    +toString(): String
+}
+
+class Monitor {
+    +idMonitor: int
+    +marca: String
+    +tamano: String
+    +contadorMonitores: int
+    +toString(): String
+}
+
+class Orden {
+    -idOrden: int
+    -computadoras: Computadora[]
+    -contadorOrdenes: int
+    +agregarComputadora(computadora)
+    +mostrarOrden()
+}
+
+class DispositivoEntrada {
+    +tipoEntrada: String
+    +marca: String
+}
+
+class Raton {
+    +idRaton: int
+    +contadorRatones: int
+    +toString(): String
+}
+
+class Teclado {
+    -idTeclado: int
+    -contadorTeclado: int
+    +toString(): String
+}
+
+' Relaciones
+Computadora "1" o-- "1" Monitor : agregar
+Computadora "1" o-- "1" Teclado : agregar
+Computadora "1" o-- "1" Raton : agregar
+Orden "1" *-- "n" Computadora : agregar
+
+DispositivoEntrada <|-- Raton
+DispositivoEntrada <|-- Teclado
+@enduml
